@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TolgeeDotNet.ApiClient.Kiota/TolgeeDotNet.ApiClient.Kiota.csproj" />
+    <Project Path="src/TolgeeDotNet.ApiClient.NSwag/TolgeeDotNet.ApiClient.NSwag.csproj" />
+    <Project Path="src/TolgeeDotNet.ApiClient.Refitter/TolgeeDotNet.ApiClient.Refitter.csproj" />
+  </Folder>
+</Solution>

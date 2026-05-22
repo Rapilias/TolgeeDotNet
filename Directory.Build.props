@@ -1,0 +1,27 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <NoWarn>$(NoWarn);MSB3277;CS0612;CS0618;CS1572;CS1573;CS1591;CS8618</NoWarn>
+
+    <PackageId>$(MSBuildProjectName)</PackageId>
+    <Title>$(MSBuildProjectName)</Title>
+    <Authors>Rapilias</Authors>
+    <PackageProjectUrl>https://github.com/Rapilias/TolgeeDotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Rapilias/TolgeeDotNet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>tolgee;api-client;localization</PackageTags>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>
