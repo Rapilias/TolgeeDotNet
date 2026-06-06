@@ -1,0 +1,30 @@
+{
+  "components": {
+    "schemas": {
+      "KeyWithTranslationsModel": {
+        "properties": {
+          "keyMaxCharLimit": {
+            "nullable": true
+          }
+        }
+      },
+      "TranslationModel": {
+        "properties": {
+          "mtProvider": {
+            "nullable": true
+          }
+        }
+      },
+      "TranslationViewModel": {
+        "properties": {
+          "id": {
+            "nullable": true
+          },
+          "mtProvider": {
+            "nullable": true
+          }
+        }
+      }
+    }
+  }
+}
