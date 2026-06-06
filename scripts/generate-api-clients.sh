@@ -67,3 +67,5 @@ dotnet refitter "$resolved_api_spec" \
   --use-api-response \
   --no-banner \
   --simple-output
+
+dotnet build -c Release
