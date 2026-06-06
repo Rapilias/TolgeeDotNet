@@ -21423,7 +21423,7 @@ public KeyTaskViewModelType Type { get; set; }
         /// Maximum character limit for translations of this key
         /// </summary>
         [JsonPropertyName("keyMaxCharLimit")]
-        public int KeyMaxCharLimit { get; set; }
+        public int? KeyMaxCharLimit { get; set; }
 
         /// <summary>
         /// Name of key
@@ -28509,7 +28509,7 @@ public TranslationMemoryModelType Type { get; set; }
         /// Which machine translation service was used to auto translate this
         /// </summary>
         [JsonPropertyName("mtProvider")]
-public TranslationModelMtProvider MtProvider { get; set; }
+public TranslationModelMtProvider? MtProvider { get; set; }
 
         /// <summary>
         /// Whether base language translation was changed after this translation was updated
@@ -28674,7 +28674,7 @@ public TranslationSuggestionSimpleModelState State { get; set; }
         /// Id of translation record
         /// </summary>
         [JsonPropertyName("id")]
-        public long Id { get; set; }
+        public long? Id { get; set; }
 
         /// <summary>
         /// Labels assigned to this translation
@@ -28686,7 +28686,7 @@ public TranslationSuggestionSimpleModelState State { get; set; }
         /// Which machine translation service was used to auto translate this
         /// </summary>
         [JsonPropertyName("mtProvider")]
-public TranslationViewModelMtProvider MtProvider { get; set; }
+public TranslationViewModelMtProvider? MtProvider { get; set; }
 
         /// <summary>
         /// Whether base language translation was changed after this translation was updated

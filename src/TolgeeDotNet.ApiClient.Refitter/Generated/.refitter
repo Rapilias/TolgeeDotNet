@@ -1,5 +1,5 @@
 {
-  "openApiPath": "Reference/apiSpecs.json",
+  "openApiPath": "Reference/apiSpecs.resolved.json",
   "namespace": "TolgeeDotNet.ApiClient.Refitter.Generated",
   "contractsNamespace": null,
   "naming": {

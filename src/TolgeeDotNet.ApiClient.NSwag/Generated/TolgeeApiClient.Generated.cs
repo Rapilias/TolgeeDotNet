@@ -72936,7 +72936,7 @@ namespace TolgeeDotNet.ApiClient.NSwag.Generated
         /// Maximum character limit for translations of this key
         /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("keyMaxCharLimit")]
-        public int KeyMaxCharLimit { get; set; }
+        public int? KeyMaxCharLimit { get; set; }
 
         /// <summary>
         /// Name of key
@@ -80083,7 +80083,7 @@ namespace TolgeeDotNet.ApiClient.NSwag.Generated
         /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("mtProvider")]
         [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter<TranslationModelMtProvider>))]
-        public TranslationModelMtProvider MtProvider { get; set; }
+        public TranslationModelMtProvider? MtProvider { get; set; }
 
         /// <summary>
         /// Whether base language translation was changed after this translation was updated
@@ -80251,7 +80251,7 @@ namespace TolgeeDotNet.ApiClient.NSwag.Generated
         /// Id of translation record
         /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("id")]
-        public long Id { get; set; }
+        public long? Id { get; set; }
 
         /// <summary>
         /// Labels assigned to this translation
@@ -80264,7 +80264,7 @@ namespace TolgeeDotNet.ApiClient.NSwag.Generated
         /// </summary>
         [System.Text.Json.Serialization.JsonPropertyName("mtProvider")]
         [System.Text.Json.Serialization.JsonConverter(typeof(System.Text.Json.Serialization.JsonStringEnumConverter<TranslationViewModelMtProvider>))]
-        public TranslationViewModelMtProvider MtProvider { get; set; }
+        public TranslationViewModelMtProvider? MtProvider { get; set; }
 
         /// <summary>
         /// Whether base language translation was changed after this translation was updated
