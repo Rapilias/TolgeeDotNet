@@ -60,6 +60,11 @@ dotnet kiota generate \
   --class-name TolgeeApiClient \
   --log-level Warning
 
+kiota_log="src/TolgeeDotNet.ApiClient.Kiota/Generated/.kiota.log"
+if [[ -f "$kiota_log" ]]; then
+  LC_ALL=C sort -o "$kiota_log" "$kiota_log"
+fi
+
 dotnet refitter "$resolved_api_spec" \
   --namespace TolgeeDotNet.ApiClient.Refitter.Generated \
   --output src/TolgeeDotNet.ApiClient.Refitter/Generated/TolgeeApiClient.Generated.cs \
